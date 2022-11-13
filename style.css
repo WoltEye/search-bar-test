@@ -20,11 +20,13 @@ body {
   justify-content: stretch;
 }
 
+
+
 .search-bar form input:first-child {
-border: 1px solid black;
 border-left: transparent;
 border-right: transparent;
-height: 45px;
+border: transparent;
+height: 47px;
 width: 250px;
 }
 
@@ -42,9 +44,6 @@ outline: none;
 
 .search-bar .img-wrapper {
 display: inline-flex;
-border-left: 1px solid black;
-border-top: 1px solid black;
-border-bottom: 1px solid black;
 border-top-left-radius: 10px;
 border-bottom-left-radius: 10px;
 margin: 0;
@@ -63,11 +62,11 @@ background-color: white;
 }
 
 .search-bar form input:last-child {
-    border: 1px solid black;
-    border-left: transparent;
+    border: transparent;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     height: 49px;
     background-color: rgb(255, 106, 0);
-    margin-left: -10px
+    margin-left: -10px;
+    width: 100px;
 }
